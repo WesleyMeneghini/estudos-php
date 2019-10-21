@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/engrenagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+h2{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+figure{
+    width: inherit;
+    height: inherit;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bkg-img{
+    width: inherit;
+    height: inherit;
+}
+.txt-center{
+    text-align: center;
+}
+
+
+
+
+.container_cms{
+    width: 1200px;
+    min-height: 750px;
+/*    background-color: #a3ffbc;*/
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-bottom: 50px;
+}
+
+#cabecalho{
+    width: inherit;
+    height: 150px;
+/*    background-color: aqua;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: solid 1px black;
+}
+#titulo_cms{
+    width: 700px;
+    height: inherit;
+/*    background-color: saddlebrown;*/
+    border-top-left-radius: 10px;
+    float: left;
+}
+
+#logo_empresa{
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+    float: left;
+    padding-top: 25px;
+}
+
+#menu{
+    width: inherit;
+    height: 135px;
+    border-bottom: solid 1px black;
+}
+nav{
+    width: 550px;
+    height: inherit;
+/*    background-color: aqua;*/
+    padding-top: 20px;
+    float: left;
+    
+}
+
+.menu_itens{
+    width: 150px;
+    height: 105px;
+/*    background-color: darkred;*/
+    float: left;
+    margin-left: 20px;
+}
+
+.menu_img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+li{
+    text-align: center;
+}
+
+#identificacao{
+    width: 300px;
+    height: 120px;
+    float: right;
+    padding-top: 10px;
+/*    background-color: aliceblue;*/
+    margin-right: 20px;
+    text-align: right;
+}
+#logout{
+    padding-top: 70px;
+}
+#adm_conteudo{
+    width: inherit;
+    height: 500px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+
+.paginas_editaveis{
+    width: 180px;
+    min-height: 120px;
+    height: auto;
+/*    background-color: aqua;*/
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 30px;
+}
+
+.icone_imagem{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.nome_pagina{
+    width: inherit;
+    min-height: 30px;
+    height: auto;
+}
+
+.paginas_editaveis:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+/*--------------------------------------*/
+/*------- Pagina ADM fale conosco-------*/
+
+
+#adm_fale_conosco{
+    width: inherit;
+    height: 500px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+#tbl_fale_conosco{
+    width: 1000px;
+    min-height: 50px;
+    height: auto;
+    border: solid 1px red;
+}
+
+#tbl_fale_conosco tr{
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 50px;
+    width: inherit;
+    border-top: solid 1px black;
+    padding-top: 15px;
+/*    background-color: aqua;*/
+}
