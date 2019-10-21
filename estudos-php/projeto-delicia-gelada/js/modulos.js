@@ -39,24 +39,24 @@ function mascaraFone(objeto, event, tipoDeDados) {
 
         if(tipo == "telefone"){
             if (input.length == 0) {
-                resultado = "(0";
-            } else if (input.length == 4) {
+                resultado = "(";
+            } else if (input.length == 3) {
                 resultado += ") ";
-            } else if (input.length == 10) {
+            } else if (input.length == 9) {
                 resultado += "-";
-            } else if (input.length == 15) {
+            } else if (input.length == 14) {
                 return false;
             }
             return document.getElementById(id).value = resultado;
 
         } else if(tipo == "celular"){
             if (input.length == 0) {
-                resultado = "(0";
-            } else if (input.length == 4) {
+                resultado = "(";
+            } else if (input.length == 3) {
                 resultado += ") ";
-            } else if (input.length == 11) {
+            } else if (input.length == 10) {
                 resultado += "-";
-            } else if (input.length == 16) {
+            } else if (input.length == 15) {
                 return false;
             }
             return document.getElementById(id).value = resultado;

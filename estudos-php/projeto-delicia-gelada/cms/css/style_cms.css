@@ -169,23 +169,28 @@ li{
 
 #adm_fale_conosco{
     width: inherit;
-    height: 500px;
+    min-height: 500px;
+    height: auto;
     padding: 20px;
     padding-top: 50px;
 }
 
 #tbl_fale_conosco{
-    width: 1000px;
-    min-height: 50px;
+    width: 100%;
+    min-height: 40px;
     height: auto;
     border: solid 1px red;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #tbl_fale_conosco tr{
     height: 100px;
 }
 
-
+#adm_fale_conosco tr td{
+    border: solid 1px red;
+}
 
 
 

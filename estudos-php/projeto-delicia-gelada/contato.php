@@ -49,7 +49,7 @@
                                 <p class="p_form">
                                     Telefone
                                     <br>
-                                    <input class="p_form_telefone" type="text" name="txt_telefone" maxlength="15" minlength="15" id="txt_telefone" onkeypress="return mascaraFone(this, event, 'telefone');">
+                                    <input class="p_form_telefone" type="text" name="txt_telefone" maxlength="14" minlength="14" id="txt_telefone" onkeypress="return mascaraFone(this, event, 'telefone');">
                                 </p>
                             </div>
 
@@ -61,7 +61,7 @@
                                         *
                                     </span>
                                     <br>
-                                    <input class="p_form_telefone" type="text" name="txt_celular" maxlength="16" minlength="16" required id="txt_celular" onkeypress="return mascaraFone(this, event, 'celular');">
+                                    <input class="p_form_telefone" type="text" name="txt_celular" maxlength="15" minlength="15" required id="txt_celular" onkeypress="return mascaraFone(this, event, 'celular');">
                                 </p>
                             </div>
                         </div>
