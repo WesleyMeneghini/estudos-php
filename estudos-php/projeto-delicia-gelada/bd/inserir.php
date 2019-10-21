@@ -35,7 +35,7 @@
         // Executa o script para o banco de dados [se o script der certo iremos redirecioar para a pagina de cadastro, senoa mostra mensagem de erro]
         if(mysqli_query($conexao, $sql)){
             // Redirecionar para uma determinada pagina
-            echo("<script>alert('Email enviado com sucesso!');
+            echo("<script>/*alert('Email enviado com sucesso!');*/
                         window.location.href = '../contato.php';
                 </script>");
             // header('location:../contato.php');
