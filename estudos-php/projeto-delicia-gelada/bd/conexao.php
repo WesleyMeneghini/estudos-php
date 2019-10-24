@@ -19,7 +19,7 @@
         $server = (string) "localhost";     //Local de instalaçao do banco de dados
         $user = (string) "root";    // Usuario para a conexao com o banco de dados
         $password = (string) "bcd127";      // Senha para conexao com o BAnco de Dados
-        $database = (string) "db_contato"; //Nome do database
+        $database = (string) "db_delicia_gelada_wesley"; //Nome do database
 
         // Estabelece a conexao com o banco de dados
         $conexao = mysqli_connect($server, $user, $password, $database); 

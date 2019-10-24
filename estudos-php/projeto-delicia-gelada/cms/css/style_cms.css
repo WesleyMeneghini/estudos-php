@@ -46,6 +46,11 @@ figure{
     background-color: #29bb2e;
 }
 
+.conteudo{
+    height: inherit;
+    width: 800px;
+}
+
 
 
 
@@ -251,13 +256,15 @@ a{
 }
 
 #modal{
-    min-width: 800px;
-    width: auto;
+    width: 800px;
     height: 500px;
+    min-height: 600px;
+    height: auto;
     background-color: gray;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12vh;
+    margin-top: 2vh;
+    border-radius: 10px;
 }
 
 #fechar{
@@ -265,6 +272,36 @@ a{
     height: 10px;
     background-color: aqua;
     margin-left: auto;
+}
+
+#conteudo_modal{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+}
+
+#container_dados{
+    width: 600px;
+    height: inherit;
+    padding: 25px;
+}
+#container_dados p{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+#container_dados p span{
+    width: 200px;
+    min-height: 25px;
+    height: auto;
+    font-size: 22px;
+    /* background-color: #29bb2e; */
+}
+.dados{
+    width: 350px;
+    min-height: 20px;
+    height: auto;
+    /* background-color: aqua; */
+    /* text-align: left; */
 }
 
 

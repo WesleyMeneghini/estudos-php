@@ -10,7 +10,7 @@
             
             $codigo = $_GET['codigo'];
             
-            $sql = "delete from tbl_contato where codigo=".$codigo.";";
+            $sql = "delete from tbl_faleconosco where codigo=".$codigo.";";
             
 //            echo($sql);
             if(mysqli_query($conexao, $sql)){

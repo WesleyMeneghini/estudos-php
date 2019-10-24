@@ -89,7 +89,7 @@
                     <?php
                         
                         // script do banco de dados
-                        $sql = "select * from tbl_contato";
+                        $sql = "select * from tbl_faleconosco";
                         $select = mysqli_query($conexao, $sql);
                         
                         while($rsContatos = mysqli_fetch_array($select)){

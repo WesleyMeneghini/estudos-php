@@ -27,7 +27,7 @@
         // Converter a data do padrao brasileiro para guardar no BD, com o padrao americano
 //        echo($data_nascimento);
         
-        $sql = "insert into tbl_contato (nome, telefone, celular, email, homepage, linkfacebook, profissao, sexo, opcaomensagem, mensagem)
+        $sql = "insert into tbl_faleconosco (nome, telefone, celular, email, homepage, linkfacebook, profissao, sexo, opcaomensagem, mensagem)
         values ('".$nome."', '".$telefone."', '".$celular."', '".$email."', '".$homepage."', '".$linkfacebook."', '".$profissao."', '".$sexo."', '".$opcao."', '".$mensagem."');";
         
         // echo($sql);

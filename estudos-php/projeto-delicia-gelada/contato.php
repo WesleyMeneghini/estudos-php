@@ -70,19 +70,19 @@
                         <p class="p_form negrito">
                             E-mail<span class="obrigatorio"> *</span>
                         </p>
-                        <input class="p_form" type="text" name="txt_email" required>
+                        <input class="p_form" type="text" name="txt_email" maxlength="50" required>
                         
                         <!-- Home Page -->
                         <p class="p_form bkgb">
                             Home Page
                         </p>
-                        <input class="p_form" type="url" name="txt_homepage" placeholder="http://nome-do-site.com">
+                        <input class="p_form" type="url" name="txt_homepage" placeholder="http://nome-do-site.com" maxlength="100">
 
                         <!-- Link no Facebook -->
                         <p class="p_form bkgb">
                             Link no Facebook
                         </p>
-                        <input class="p_form" type="url" name="txt_linkfacebook" placeholder="http://www.facebook.com/nome-de-usuario">
+                        <input class="p_form" type="url" name="txt_linkfacebook" placeholder="http://www.facebook.com/nome-de-usuario" maxlength="100">
 
                         <!-- Profissão -->
                         <p class="p_form negrito">
@@ -91,7 +91,7 @@
                                 *
                             </span>
                         </p>
-                        <input class="p_form " type="text" name="txt_profissao" id="txt_profissao" required onkeypress="return validarEntrada(event, 'numeric');">
+                        <input class="p_form " type="text" name="txt_profissao" id="txt_profissao" required onkeypress="return validarEntrada(event, 'numeric');" maxlength="45">
                         
                         <!-- Sexo do individuo -->
                         <p class="p_form negrito">
